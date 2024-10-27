@@ -1,43 +1,48 @@
-# Predicción de las vacunas contra la influenza H1N1 y la influenza estacional
+# Predicción de las vacunas contra el virus H1N1 y la influenza estacional
 
 # Primera Entrega
 
-El objetivo del proyecto es diseñar un modelo que permita predecir la probabilidad de que una persona reciba las vacunas contra la influenza H1N1 y la gripe estacional.
+El objetivo del proyecto es diseñar un modelo de Machine Learning que permita predecir la probabilidad de que una persona reciba las vacunas contra el virus H1N1 y la gripe estacional.
 
 ###### Contexto del negocio
 
-Las vacunas proporcionan inmunización a las personas, y una inmunización suficiente en una comunidad puede reducir aún más la propagación de enfermedades a través de la "inmunidad colectiva".
+En los últimos años, se han presentado a nivel mundial una serie de enfermedades respiratorias importantes. A partir de la primavera de 2009, una pandemia causada por el virus de la gripe H1N1, coloquialmente llamada "gripe porcina", se extendió por todo el mundo. Los investigadores estiman que, en el primer año, fue responsable de entre 151.000 y 575.000 muertes en todo el mundo.
 
-En los últimos años, se han presentado a nivel mundial una serie de enfermedades respiratorias importantes. A partir de la primavera de 2009, una pandemia causada por el virus de la gripe H1N1, coloquialmente llamada "gripe porcina", se extendió por todo el mundo. Los investigadores estiman que en el primer año, fue responsable de entre 151.000 y 575.000 muertes en todo el mundo.
+En octubre de 2009 se puso a disposición del público una vacuna contra el virus de la gripe H1N1. Las vacunas proporcionan inmunización a las personas, y una inmunización suficiente en una comunidad puede reducir aún más la propagación de enfermedades a través de la "inmunidad colectiva".
 
-En octubre de 2009 se puso a disposición del público una vacuna contra el virus de la gripe H1N1. A finales del 2009 y principios del 2010, los Estados Unidos llevaron a cabo la Encuesta Nacional sobre la Influenza H1N1 2009, esta encuesta telefónica preguntó a los encuestados si habían recibido las vacunas contra la gripe H1N1 y la gripe estacional, junto con preguntas sobre ellos mismos.
+A finales del 2009 y principios del 2010, en los Estados Unidos se llevó a cabo la Encuesta Nacional sobre la Influenza H1N1, esta encuesta telefónica preguntó a los encuestados si habían recibido las vacunas contra la gripe H1N1 y la gripe estacional, así como preguntas que abarcaron sus antecedentes sociales, económicos y demográficos, comportamientos para mitigar la transmisión, opiniones sobre los riesgos de enfermedad y la efectividad de la vacuna.
 
-Estas preguntas adicionales abarcaron sus antecedentes sociales, económicos y demográficos, opiniones sobre los riesgos de enfermedad y la efectividad de la vacuna, y comportamientos para mitigar la transmisión. 
-
-Una mejor comprensión de cómo estas características se asocian con los patrones de vacunación personal puede proporcionar orientación para futuros esfuerzos de salud pública.
+Una mejor comprensión de cómo estas características se asocian con los patrones de vacunación puede proporcionar una orientación clara para futuros esfuerzos de salud pública.
 
 
 **Tabla de Contenido**
-* [Dependencias](#dependencias)
-* [Conclusiones](#conclusiones)
+* [Librerías](#librerias)
 * [Instrucciones de Ejecución](#instrucciones-de-ejecucion)
+* [Conclusiones](#conclusiones)
 * [Autores](#autores)
 
 
-#### Dependencias
+#### Librerías
 
-
-
-
-#### Conclusiones
-
- 
+Las librerías utilizadas para el análisis de los datos son las siguientes: 
+- pandas
+- numpy
+- seaborn 
+- matplotlib
+- requests
+- io
 
 
 #### Instrucciones de Ejecución
 
+El análisis de los datos se realizó a través de un notebook de Jupyter, el cual debe ser ejecutado secuencialmente. 
 
 
+#### Conclusiones
+
+1. Se evidencia un bajo porcentaje de vacunación tanto para el virus H1N1 como para la influenza estacional, por lo que no se logró, en su momento, la inmunidad colectiva.
+2. Se evidencia que las variables relacionadas con los hábitos de salud no tienen un impacto directo con la decisión de vacunación.
+3. Se evidencia una fuerte correlación entre la opinión del riesgo que tiene contraer el virus H1N1 o la influenza estacional con la cantidad de personas vacunadas. 
 
 #### Autores
 
