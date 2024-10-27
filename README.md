@@ -40,7 +40,9 @@ El análisis de los datos se realizó a través de un notebook de Jupyter, el cu
 
 #### Conclusiones
 
-
+1. Se evidencia un bajo porcentaje de vacunación tanto para el virus H1N1 como para la influenza estacional, por lo que no se logró, en su momento, la inmunidad colectiva.
+2. Se evidencia que las variables relacionadas con los hábitos de salud no tienen un impacto directo con la decisión de vacunación.
+3. Se evidencia una fuerte correlación entre la opinión del riesgo que tiene contraer el virus H1N1 o la influenza estacional con la cantidad de personas vacunadas. 
 
 #### Autores
 
