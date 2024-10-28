@@ -42,7 +42,11 @@ El análisis de los datos se realizó a través de un notebook de Jupyter, el cu
 
 1. Se evidencia un bajo porcentaje de vacunación tanto para el virus H1N1 como para la influenza estacional, por lo que no se logró, en su momento, la inmunidad colectiva.
 2. Se evidencia que las variables relacionadas con los hábitos de salud no tienen un impacto directo con la decisión de vacunación.
-3. Se evidencia una fuerte correlación entre la opinión del riesgo que tiene contraer el virus H1N1 o la influenza estacional con la cantidad de personas vacunadas. 
+3. Se evidencia una fuerte correlación entre la opinión del riesgo que tiene contraer el virus H1N1 o la influenza estacional con la cantidad de personas vacunadas.
+4. Las variables como el sexo, la raza o la ubicación geográfica no representan una relación significativa para determinar si una persona decide vacunarse. Del mismo modo, factores como el uso de tapabocas o el lavado de manos no están relacionados con la decisión de vacunarse.
+5. Al usar el algoritmo de Random Forest en la problemática, se logrará una comprensión más profunda de los factores que influyen en la probabilidad de que una persona reciba la vacuna contra la gripe H1N1 y la gripe estacional.
+6. La métrica AUC nos indicará si el modelo es capaz de distinguir de manera efectiva entre aquellos que probablemente se vacunarán y aquellos que no.
+
 
 #### Autores
 
