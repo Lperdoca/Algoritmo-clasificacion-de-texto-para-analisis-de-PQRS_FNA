@@ -29,16 +29,28 @@ Las librerías utilizadas para el análisis de los datos son las siguientes:
 - matplotlib
 - requests
 - io
+- sklearn
+- scipy
 
 
 #### Instrucciones de Ejecución
 
-El análisis de los datos se realizó a través de un notebook de Jupyter, el cual debe ser ejecutado secuencialmente. 
+El análisis de los datos, el entrenamiento y la ejecución de los modelos se realizaron en el notebook [Proyecto_EDA.ipynb](https://github.com/Lperdoca/Modelo-de-prediccion-vacunas-influenza-y-H1N1/blob/main/Proyecto_EDA.ipynb) de Jupyter, el cual debe ser ejecutado secuencialmente. 
 
 
 #### Conclusiones
 
+1. Se evidencia un bajo porcentaje de vacunación tanto para el virus H1N1 como para la influenza estacional en el grupo de edad de 18 a 35 años y un porcentaje más alto en los mayores de 65.
 
+2. Se evidencia que las variables relacionadas con los hábitos de salud no tienen un impacto directo con la decisión de vacunación. 
+
+3. Se evidencia una fuerte correlación entre la opinión del riesgo que tiene contraer el virus H1N1 o la influenza estacional con la cantidad de personas vacunadas. 
+
+4. Los encuestados que trabajan en el área de la salud muestran un comportamiento similar al del resto de los participantes, lo que sugiere que trabajar en el sector salud no implica una mayor probabilidad de vacunación. 
+
+5. El algoritmo de Radom Forest y la Regresión Logística fueron los algoritmos con el mejor desempeño, ambos tuvieron un recall del 63%, lo que nos dice que el porcentaje de verdaderos positivos es significativo. 
+
+6. Mediante la métrica ROC AUC podemos concluir que el modelo de Logistics Regression, determina sigficativamente si una persona se va a vacunar o no, ya que, nos dio una media superior al 80% 
 
 
 #### Autores
